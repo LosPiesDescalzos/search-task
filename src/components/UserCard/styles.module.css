@@ -11,6 +11,12 @@
     width: 300px;
     column-gap: 24px;
     align-items: center;
+
+    cursor: pointer;
+}
+
+.userCard:hover {
+    background-color: white;
 }
 
 .userPic {
@@ -22,5 +28,12 @@
 .userInfo {
     display: flex;
     flex-direction: column;
+
+    overflow: hidden;
 }
-  
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,30 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.usersList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.load {
+    width: 100px;
+    height: 30px;
+
+    cursor: pointer;
+
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+
+    background-color: azure;
+}
+
+.load:hover {
+    background-color: white;
+}

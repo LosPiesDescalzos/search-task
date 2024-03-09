@@ -1,0 +1,22 @@
+.button {
+    width: 100px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.content {
+    color: black;
+}
+
+.primary {
+    background-color: azure;
+    border: 1px solid gainsboro;
+}

@@ -1,8 +1,11 @@
 .searchForm {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
     padding: 20px;
-  }
+    gap: 5px;
+}
 
 .searchForm form {
     display: flex;
@@ -23,4 +26,9 @@
 .searchForm input[type="submit"] {
     width: 150px;
 }
-  
+
+.failed {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
